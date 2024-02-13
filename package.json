@@ -1,0 +1,21 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "My first npm package",
+  "main": "app",
+  "scripts": {
+    "test": "npm test",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShakirAliSWE/npm-package-hello-world.git"
+  },
+  "author": "Shakir Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShakirAliSWE/npm-package-hello-world/issues"
+  },
+  "homepage": "https://github.com/ShakirAliSWE/npm-package-hello-world#readme",
+  "dependencies": {}
+}
