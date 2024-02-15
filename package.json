@@ -1,10 +1,10 @@
 {
-  "name": "my-logger",
+  "name": "shakir-logger",
   "version": "1.0.0",
   "description": "My first npm package",
   "main": "app",
   "scripts": {
-    "test": "node ./src/test/index.test.js",
+    "test": "node ./src/__test__/index.test.js",
     "start": "node ./src/index.js"
   },
   "repository": {
@@ -16,6 +16,5 @@
   "bugs": {
     "url": "https://github.com/ShakirAliSWE/npm-package-hello-world/issues"
   },
-  "homepage": "https://github.com/ShakirAliSWE/npm-package-hello-world#readme",
-  "dependencies": {}
+  "homepage": "https://github.com/ShakirAliSWE/npm-package-hello-world#readme"
 }

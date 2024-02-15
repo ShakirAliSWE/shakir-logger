@@ -1,6 +1,25 @@
-const logger = require("./lib/hello-world");
+class Logger {
+  constructor() {
+    this.LCERROR = "\x1b[31m%s\x1b[0m"; //red
+    this.LCWARN = "\x1b[33m%s\x1b[0m"; //yellow
+    this.LCINFO = "\x1b[36m%s\x1b[0m"; //cyan
+    this.LCSUCCESS = "\x1b[32m%s\x1b[0m"; //green
+  }
 
-logger.success("This is success log example");
-logger.warn("This is warning log example");
-logger.info("This is info log example");
-logger.error("This is error log example");
+  error(message, ...optionalParams) {
+    console.error(this.LCERROR, message, ...optionalParams);
+  }
+  warn(message, ...optionalParams) {
+    console.warn(this.LCWARN, message, ...optionalParams);
+  }
+
+  info(message, ...optionalParams) {
+    console.info(this.LCINFO, message, ...optionalParams);
+  }
+
+  success(message, ...optionalParams) {
+    console.info(this.LCSUCCESS, message, ...optionalParams);
+  }
+}
+
+module.exports = new Logger();
