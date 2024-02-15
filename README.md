@@ -47,3 +47,7 @@ logger.error(message: string)
 ```bash
 logger.success(message: string)
 ```
+
+## Authors
+
+- [@ShakirAliSWE](https://www.github.com/ShakirAliSWE)
