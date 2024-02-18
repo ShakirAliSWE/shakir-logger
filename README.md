@@ -1,6 +1,6 @@
 # Simple Console Logger
 
-A simple logger npm package using `console.log`.
+A simple logger npm package using `console.log`
 
 ## Installation
 
