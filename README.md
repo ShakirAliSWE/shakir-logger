@@ -49,5 +49,4 @@ logger.success(message: string)
 ```
 
 ## Authors
-
-- [@ShakirAliSWE](https://www.github.com/ShakirAliSWE)
+[@ShakirAliSWE](https://www.github.com/ShakirAliSWE)
